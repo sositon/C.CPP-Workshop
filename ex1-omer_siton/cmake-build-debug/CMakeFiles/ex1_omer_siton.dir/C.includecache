@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/omersiton/CLionProjects/ex1-omer_siton/cipher.h
+
+/Users/omersiton/CLionProjects/ex1-omer_siton/ex1.c
+stdio.h
+/Users/omersiton/CLionProjects/ex1-omer_siton/stdio.h
+string.h
+/Users/omersiton/CLionProjects/ex1-omer_siton/string.h
+stdlib.h
+/Users/omersiton/CLionProjects/ex1-omer_siton/stdlib.h
+ctype.h
+/Users/omersiton/CLionProjects/ex1-omer_siton/ctype.h
+cipher.h
+/Users/omersiton/CLionProjects/ex1-omer_siton/cipher.h
+
