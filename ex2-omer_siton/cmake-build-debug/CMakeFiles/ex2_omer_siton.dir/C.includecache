@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/omersiton/CLionProjects/ex2-omer_siton/ex2.c
+ex2.h
+/Users/omersiton/CLionProjects/ex2-omer_siton/ex2.h
+
+/Users/omersiton/CLionProjects/ex2-omer_siton/ex2.h
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+

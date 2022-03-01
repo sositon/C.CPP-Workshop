@@ -1,0 +1,44 @@
+//  while (fgets (buffer, DEF_BUFFER_SIZE, fd) != NULL)
+//    {
+//      // init variables
+//      int flag = END_FLAG;
+//      size_t i = 0, capacity = DEF_ALLOC_SIZE;
+//      // set the string to parse, read first token
+//      token = strtok (buffer, DELIMITERS);
+//      if (strcmp (token, START) == 0)
+//        {
+//          flag = START_FLAG;
+//        }
+//      int *data = malloc (capacity * sizeof (*data));
+//      if (data == NULL)
+//        {
+//          fprintf (stderr, DEF_ERR_INIT, __func__, DEF_ALLOC_ERR_MSG);
+//          free_linked_list (parse_linked_list);
+//          return NULL;
+//        }
+//      /* continue reading the last string put into strtok
+//       * continue to parse until there is nothing left to parse in buffer
+//       * - that's when strtok will return NULL */
+//      while ((token = strtok (NULL, DELIMITERS)))
+//        {
+//          // check if realloc is needed
+//          if (i == capacity)
+//            {
+//              capacity *= GROWTH_FACTOR;
+//              data = safe_realloc (data, capacity * sizeof (double));
+//              if(data == NULL){
+//                fprintf (stderr, DEF_ERR_INIT, __func__, DEF_ALLOC_ERR_MSG);
+//                free_linked_list (parse_linked_list);
+//                return NULL;
+//              }
+//            }
+//          data[i] = (int) strtol (token, NULL, DEF_BASE);
+//          ++i;
+//        }
+//      Node *tmp_node = new_node (NULL, NULL, data, i);
+//      if (flag)
+//        {
+//          add_to_start_linked_list (parse_linked_list, tmp_node);
+//        }
+//      else add_to_end_linked_list (parse_linked_list, tmp_node);
+//    }
