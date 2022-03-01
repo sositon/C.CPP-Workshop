@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/omersiton/CLionProjects/ex3-omer_siton/ex3.h
+math.h
+-
+stddef.h
+-
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+
+/Users/omersiton/CLionProjects/ex3-omer_siton/main.c
+assert.h
+-
+ex3.h
+/Users/omersiton/CLionProjects/ex3-omer_siton/ex3.h
+stdio.h
+-
+
