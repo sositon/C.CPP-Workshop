@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/omersiton/CLionProjects/ex7-omer_siton/test_runner.h
+stdlib.h
+-
+string
+-
+vector
+-
+
+/Users/omersiton/CLionProjects/ex7-omer_siton/tests.cpp
+iostream
+-
+vector
+-
+list
+-
+test_runner.h
+/Users/omersiton/CLionProjects/ex7-omer_siton/test_runner.h
+vl_vector.h
+/Users/omersiton/CLionProjects/ex7-omer_siton/vl_vector.h
+
+/Users/omersiton/CLionProjects/ex7-omer_siton/vl_vector.h
+algorithm
+-
+stdexcept
+-
+
